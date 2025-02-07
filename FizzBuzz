@@ -1,0 +1,210 @@
+/*FIZZBUZZ
+mit www.onlinegdb.com Online Compiler in C geschrieben
+bei 2 Verschiedene- eingegebe Zahlen
+Dieses Programm nimm die Daten auf der Konsole Eingabe
+
+Anforderung:
+- Wiederholung / Abbruch MC6glichkeit
+-FizzBuzz
+-Nutzer muss eine Untergrenze und Obergrenze geben
+-Dann 2 Zahlen geben damit wenn eine Zahl von Bereich beim diesen Zahlen teilbar ist werde
+entweder Fizz oder Buzz ersetz
+- Alles muss in eine Datei geschrieben sein
+- Optional Aufgabe: auch noch eine weitere Zahl einzugeben auf die
+eine Pruefung stattfinden soll und mit einem Teilwort ersetzt wird.
+*/
+
+//Libraries
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+
+//Funktion Deklaration
+int datei_erstellen();
+void menu();
+char* fizz_buzz(int zahl);
+int datei_print();
+
+//Variabel Deklaration
+int unterGrenze = -1;
+int oberGrenze = -1;
+int fizz = -1;
+int buzz = -1;
+int extraZahl = -1;
+char filename[100] = "Ausgabe.txt";
+char zahlString[12] = "";
+char extraWort[100] = "Bazzinga";
+
+
+//Funktion fuer Datei Erstellung
+int datei_erstellen() {
+	FILE * file;
+
+	file = fopen(filename, "w");
+	if(file == NULL) {
+		printf("Fehler beim Open der Datei.\n");
+		return 1;
+	}
+	fclose(file);
+	return 0;
+}
+
+//Fizz_Buzz Berechnung
+char* fizz_buzz(int zahl) {
+    static char result[100];
+    result[0] = '\0';
+    if (zahl % fizz == 0) {
+    strcat(result, "Fizz");
+    }
+    if (zahl % buzz == 0) {
+        strcat(result, "Buzz");
+    }
+    if (extraZahl > 0 && zahl % extraZahl == 0) {
+        strcat(result, extraWort);
+    }
+    if (result[0] == '\0') {
+        sprintf(result, "%d", zahl);
+    }
+
+    return result;
+}
+
+// Funktion fuer Datei Schreiben
+int datei_print() {
+
+	datei_erstellen();
+	FILE *file;
+	char *toPrint;
+
+	file = fopen(filename, "a");
+	if ( file == NULL) {
+		printf("Anhang: Es gab ein Fehler\n");
+		return 1;
+	} else {
+		printf("Printing Fizz und Buzz in Ausgabe.txt\n");
+		for(int i = unterGrenze; i <= oberGrenze; i++) {
+			toPrint = fizz_buzz(i);
+			fprintf(file, "%s\n",toPrint);
+			printf("%s\n",toPrint);
+		}
+	}
+	
+	fclose(file);
+	printf("Untergrenze: %i - Obergrenze %i\n", unterGrenze, oberGrenze);
+	printf("Fizz: %i und Buzz: %i\n", fizz, buzz);
+	printf("Die Konsolenausgabe wurde in der Datei 'Ausgabe.txt' gespeichert.\n");
+	return 0;
+}
+
+// Hauptmenu
+void menu() {
+	int run = 1;
+	char entscheidung;
+	char fortsetzen;
+
+	printf("***************FIZZ*******BUZZ***************\n");
+	printf("  Ich werde die Fizz und Buzz Zahlen finden!\n");
+	printf("Folgen sie die Einweisungen in \"[ ]\", Klein oder Großbuchstaben \n");
+
+	do {
+		//Untergrenze
+		printf("Bitte geben eine Zahl als Untergrenze an ");
+		while(unterGrenze < 0 ) {
+			printf("(Positive ganze Zahl): ");
+			scanf("%i", &unterGrenze);
+		}
+		printf("Valid Zahl\n");
+
+		//Obergrenze
+		printf("Bitte geben eine Zahl als Obergrenze an: ");
+		while(oberGrenze < 0 || oberGrenze < unterGrenze) {
+			printf("(Positive ganze Zahl, die groesser als die Untergrenze ist): ");
+			scanf("%i", &oberGrenze);
+		}
+		printf("Valid Zahl\n");
+
+		//FizzBuzz zahlen
+		printf("Bitte gib mir die FIZZ und BUZZ zahlen\n");
+		printf("Gib mir FIZZ: \n");
+		while(fizz < 0 || fizz > oberGrenze) {
+			printf("Untergrenze: %i - Obergrenze: %i\n",unterGrenze,oberGrenze);
+			printf("Bitte geben Sie eine ganze Zahl ein: ");
+			scanf("%i", &fizz);
+		}
+		printf("Valid Zahl\n");
+
+		printf("Gib mir BUZZ: \n");
+		while(buzz < 0 || buzz > oberGrenze) {
+			printf("Untergrenze: %i - Obergrenze: %i\n",unterGrenze,oberGrenze);
+			printf("Bitte geben Sie eine ganze Zahl ein: ");
+			scanf("%i",&buzz);
+		}
+		printf("Valid Zahl\n");
+		
+		// Extra Wort und Zahl
+        printf("Geben Sie ein zusätzliches Wort ein: ");
+        scanf("%99s", extraWort);
+        printf("Geben Sie eine Zahl ein, die überprüft werden soll: ");
+        while (extraZahl < 0 || extraZahl > oberGrenze) {
+            scanf("%i", &extraZahl);
+        }
+		
+		//Ueberpruefung der Eingabe
+        printf("Willst du mit diesen Zahlen fortsetzen?\nUntergrenze: %i\nObergrenze: %i\nFIZZ: %i\nBUZZ: %i\nExtraWort %s fuer: %i\n", unterGrenze, oberGrenze, fizz, buzz, extraWort, extraZahl);
+		printf("[J]a oder [N]ein? ");
+		scanf(" %c", &fortsetzen);
+		
+		
+		if(fortsetzen == 'j' || fortsetzen == 'J') {
+			printf("Jetzt werde ich den Fizz und Buzz Rechnen...\n");
+			fortsetzen = ' ';
+			datei_print();
+		}
+		else if(fortsetzen == 'n' || fortsetzen == 'N') {
+			printf("Faengt das Prozess von [A]nfang an oder A[b]brechen?\n");
+			while(1) {
+				scanf(" %c", &entscheidung);
+
+				if(entscheidung == 'a' || entscheidung == 'A') {
+					unterGrenze = -1;
+					oberGrenze = -1;
+					fizz = -1;
+					buzz = -1;
+					extraZahl = -1;
+					fortsetzen = ' ';
+					continue;
+				}
+				else if(entscheidung == 'b' || entscheidung == 'B') {
+					printf("Auf Wiedersehen!\n");
+					exit(0);
+				}
+				else {
+					printf("Bitte gib eine gueltige Antwort ein! [A]nfang oder A[b]bruch?\n");
+				}
+			}
+		}
+		
+		//Neustarten oder Beenden
+		printf("Wollen Sie alles nochmal berechnen [J] oder das Programm beenden [N]?\n");
+		scanf(" %c", &fortsetzen);
+
+		if (fortsetzen == 'j' || fortsetzen == 'J') {
+		    // Variablen zurücksetzen
+			unterGrenze = -1;
+			oberGrenze = -1;
+			fizz = -1;
+			buzz = -1;
+			continue;
+		} else if (fortsetzen == 'n' || fortsetzen == 'N') {
+			printf("Programm beendet.\n");
+			exit(0);
+		}
+	} while ( run == 1);
+}
+int main() {
+	//Normal Prozess der Programm
+	menu();
+	return 0;
+}
+
+//German  Hoffmann - 06/02/2025
