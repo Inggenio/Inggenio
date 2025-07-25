@@ -1,5 +1,5 @@
 - 👋 Hi, I’m @Inggenio
-- I’m interested in getting my first Job as Developer
+- I’m focused in getting my first Job as Software Developer
 - I’m currently learning Software Developer in IHK Akademie Schwaben. I have also learned Java with Udemy..
 - 📫 How to reach me inggenio13@gmail.com
 - ⚡ Fun fact: Im from Argentina, Civil Engineer with +10years of expierence in Complex Projects.
