@@ -23,8 +23,15 @@
 
 ---
 
-## 📚 I am currently Learning...
-- SQL (Udemy)  
+### 📚 Education & Training
+- Learn JavaScript (Codeacademy)
+- Software Developer IHK - JAVA (IT-Fachspezialist/-in) - IHK Akademie Schwaben
+- Java Programming Masterclass 2024 (Tim Buchalka – Udemy)
+
+---
+
+### 📚 I am currently Learning...
+- Complete SQL-Bootcamp (Portilla - Udemy)  
 - React & modern frontend development  
 
 ---
