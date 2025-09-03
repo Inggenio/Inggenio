@@ -1,22 +1,24 @@
 # 👋 Hi, I’m Inggenio
 
 🎯 Aspiring **Software Developer** focused on building full-stack applications with **Java (Spring Boot)** and **JavaScript (React)**.  
-💼 Currently transitioning from Civil Engineering (10+ years of experience in complex projects) into IT, with a strong foundation in **problem-solving and logical thinking**.  
+💼 Currently transitioning from Civil Engineering (15+ years of experience in complex projects) into IT, with a strong foundation in **project manegement, problem-solving and logical thinking**.  
 
 ---
 
 ## 🔧 Tech Stack
-- **Languages:** Java, JavaScript, SQL  
-- **Frameworks:** Swing, Spring Boot, React (learning)  
+- **Languages:** Java, JavaScript, SQL, C/C++(Arduino IDE)  
+- **Frameworks:** Spring Boot, React (learning)  
 - **Tools:** Git, GitHub, IntelliJ, Eclipse, VS Code  
-- **Databases:** MySQL, PostgreSQL  
+- **Databases:** MySQL, PostgreSQL
+- **Desktop Development:** Java Swing, JavaFX
 
 ---
 
 ## 📂 Featured Projects
 - [🏡 Real Estate App](link-a-tu-repo) – Full-stack app for property management (Java + React + PostgreSQL).  
-- [📒 Contacts Manager](link-a-tu-repo) – Java Swing desktop app for managing contacts with CRUD functionality.  
-- [🔑 REST API Demo](link-a-tu-repo) – Secure API built with Spring Boot and JWT.  
+- [📒 Crispy-Agenda2](https://github.com/Inggenio/Crispy-Agenda2) – Java Swing desktop app for managing contacts with CRUD functionality.  
+- [🔑 REST API Demo](link-a-tu-repo) – Secure API built with Spring Boot and JWT.
+- [Aktien-Tracker](https://github.com/Inggenio/Aktien-Tracker)  
 
 ---
 
