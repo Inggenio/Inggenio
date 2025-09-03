@@ -16,9 +16,10 @@
 
 ## 📂 Featured Projects
 - [🏡 Real Estate App](link-a-tu-repo) – Full-stack app for property management (Java + React + PostgreSQL).  
-- [📒 Crispy-Agenda2](https://github.com/Inggenio/Crispy-Agenda2) – Java Swing desktop app for managing contacts with CRUD functionality.  
-- [🔑 REST API Demo](link-a-tu-repo) – Secure API built with Spring Boot and JWT.
-- [Aktien-Tracker](https://github.com/Inggenio/Aktien-Tracker)  
+- [📒 Crispy-Agenda2](https://github.com/Inggenio/Crispy-Agenda2) – Java Swing desktop app for managing contacts with CRUD functionality.
+- [📈Aktien-Tracker](https://github.com/Inggenio/Aktien-Tracker) - A stock market tracking app using Alpha Vantage API + SQL Database for Tickers
+- [💷 / 💴 W-hrung](https://github.com/Inggenio/W-hrung) - Little APP for Money Currencies Exchange
+- [🖼️ Cautious-Doodle](https://github.com/Inggenio/cautious-doodle) - Little APP for Desktop-Pictures
 
 ---
 
