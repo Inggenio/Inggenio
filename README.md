@@ -16,7 +16,7 @@
 
 ## 📂 Featured Projects
 - [📒 Crispy-Agenda2](https://github.com/Inggenio/Crispy-Agenda2) – Java Swing desktop app for managing contacts with CRUD functionality.
-- [🔒 Faul-Logger](https://github.com/Inggenio/FaulLogger) - A Arduino Project(Physical one Button-Password-USB Stick), with a PCB KiCad Project ready to Download and Order.
+- [🔒 Faul-Logger](https://github.com/Inggenio/FaulLogger) - A Arduino Project(Physical one Button-Password-USB Stick), with a PCB ready to Download,  Order and Solder.
 - [📈Aktien-Tracker](https://github.com/Inggenio/Aktien-Tracker) - A stock market tracking app using Alpha Vantage API + SQL Database for Tickers
 - [💷 / 💴 W-hrung](https://github.com/Inggenio/W-hrung) - Little APP for Money Currencies Exchange
 - [🖼️ Cautious-Doodle](https://github.com/Inggenio/cautious-doodle) - Little APP for Desktop-Pictures
