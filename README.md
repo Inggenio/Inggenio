@@ -36,7 +36,7 @@
 
 ---
 
-## 📫 Get in Touch
-- Email: inggenio13@gmail.com  
+## 📫 Get in Touch!
+- Email: ingenierohk@gmail.com  
 - LinkedIn: [https://www.linkedin.com/in/german-hoffmann/](link)  
 - GitHub: [github.com/Inggenio](https://github.com/Inggenio)
