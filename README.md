@@ -6,7 +6,11 @@
 ---
 
 ## 🔧 Tech Stack
-- **Languages:** Java, JavaScript, SQL, C/C++(Arduino IDE)  
+- **Languages:** Java, JavaScript, SQL, C/C++(Arduino IDE)
+![Java](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white)  
+![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)  
+![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)  
+![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)   
 - **Frameworks:** Spring Boot, React (learning)  
 - **Tools:** Git, GitHub, IntelliJ, Eclipse, VS Code  
 - **Databases:** MySQL, PostgreSQL
@@ -27,17 +31,21 @@
 - Learn JavaScript (Codeacademy)
 - Software Developer IHK - JAVA (IT-Fachspezialist/-in) - IHK Akademie Schwaben
 - Java Programming Masterclass 2024 (Tim Buchalka – Udemy)
-
+- 
 ---
-
 ## 📚 I am currently Learning...
 - Complete SQL-Bootcamp (Portilla - Udemy)  
 - React & modern frontend development  
-
 ---
-
+## 📚 Books
+- Clean Code: A Handbook of Agile Software Craftsmanship – Robert C. Martin
+- Code: The Hidden Language of Computer Hardware and Software – Charles Petzold
+- How Does It Know? – J. Clark Scott
+---
 ## 🌍 About Me
-- Originally from Argentina, now based in Germany 🇩🇪  
+- Originally from Argentina, now based in Germany 🇩🇪
+- My biggest challenge: Moving to Germany in 2021, settling down, and bringing my family with me.
+- Another big challenge: Managing and completing the construction of a 7-story building(2200sqm) as the sole Civil Engineer as Project Manager, without a technical crew or assistant.
 - Fluent in **German (C1)**, **English (C1)**, and **Spanish (native)**  
 - Passionate about continuous learning and building real-world applications  
 
