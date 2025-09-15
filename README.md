@@ -39,16 +39,15 @@
 ## 📂 Featured Projects
 - [📒 Crispy-Agenda2](https://github.com/Inggenio/Crispy-Agenda2) – Java Swing desktop app for managing contacts with CRUD functionality.
 - [🔒 Faul-Logger](https://github.com/Inggenio/FaulLogger) - A Arduino Project(Physical one Button-Password-USB Stick), with a PCB ready to Download,  Order and Solder.
-- [📈Aktien-Tracker](https://github.com/Inggenio/Aktien-Tracker) - A stock market tracking app using Alpha Vantage API + SQL Database for Tickers
 - [💷 / 💴 W-hrung](https://github.com/Inggenio/W-hrung) - Little APP for Money Currencies Exchange
+- [📈Aktien-Tracker](https://github.com/Inggenio/Aktien-Tracker) - A stock market tracking app using Alpha Vantage API + SQL Database for Tickers
 - [🖼️ Cautious-Doodle](https://github.com/Inggenio/cautious-doodle) - Little APP for Desktop-Pictures
-
 ---
 ## 📚 Education & Training
+- Back-end Developer Path(Python & TypeScript) (On going)
 - Learn JavaScript (Codeacademy)
 - Software Developer IHK - JAVA (IT-Fachspezialist/-in) - IHK Akademie Schwaben
 - Java Programming Masterclass 2024 (Tim Buchalka – Udemy)
-- 
 ---
 ## 📚 I am currently Learning...
 - Complete SQL-Bootcamp (Portilla - Udemy)  
