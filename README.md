@@ -1,7 +1,7 @@
 # 👋 Hi, I’m Inggenio
 
 🎯 Aspiring Software Developer focused on building desktop applications with *Java* (*Swing* and *JavaFX*), and eager to expand into full-stack development.
-💼 Currently transitioning from Civil Engineering (15+ years of experience in complex projects) into IT, with a strong foundation in **project manegement, problem-solving and logical thinking**.  
+💼 Currently transitioning from Civil Engineering, into IT, with a strong foundation in **project management, problem-solving and logical thinking**.  
 
 ---
 ## 🌍 About Me
@@ -16,7 +16,7 @@
 ---
 
 ## 🔧 Tech Stack
-- **Languages:** Java, JavaScript, SQL, C/C++(Arduino IDE)
+- **Languages:** Java, JavaScript, SQL, C/C++(Arduino IDE), Python and Type Script (Work in Progress)
 - **Frameworks:** Spring Boot, React (learning)  
 - **Tools:** Git, GitHub, IntelliJ, Eclipse, VS Code  
 - **Databases:** MySQL, PostgreSQL
