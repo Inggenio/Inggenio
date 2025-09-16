@@ -38,6 +38,7 @@
 
 ## 📂 Featured Projects
 - [📒 Crispy-Agenda2](https://github.com/Inggenio/Crispy-Agenda2) – Java Swing desktop app for managing contacts with CRUD functionality.
+- [💷 / 💴 SwiftExchange](https://github.com/Inggenio/SwiftExchange) - Java Swing Currencies Exchange, wit Exchangerate API und Logging functionality
 - [🔒 Faul-Logger](https://github.com/Inggenio/FaulLogger) - A Arduino Project(Physical one Button-Password-USB Stick), with a PCB ready to Download,  Order and Solder.
 - [💷 / 💴 W-hrung](https://github.com/Inggenio/W-hrung) - Little APP for Money Currencies Exchange
 - [📈Aktien-Tracker](https://github.com/Inggenio/Aktien-Tracker) - A stock market tracking app using Alpha Vantage API + SQL Database for Tickers
